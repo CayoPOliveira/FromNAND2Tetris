@@ -8,7 +8,8 @@
 module Increment16(out, in);
     input [15:0] in;
     output [15:0] out;
-    wire ovlf, one;
+    wire ovlf;
+    wire [15:0] one;
     assign one = 16'b0000000000000001;
 
     Adder16 ad16(out, ovlf, in, one);
