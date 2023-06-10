@@ -146,7 +146,7 @@ def handle_symbols(lines):
 def assembly(args):
     # Remove white spaces and comments
     with open(args.file, 'r') as input:
-        lines = [l.split("//")[0].replace(" ", "").replace("\n", "")
+        lines = [l.split("//")[0].replace(" ", "").replace("\n", "").replace("\t", "")
                  for l in input.readlines() if l.strip() and not l.replace(" ", "").startswith("//")]
 
     #handle symbols
