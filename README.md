@@ -1,7 +1,5 @@
-<!-- @format -->
+# FromNAND2Tetris
 
-# ESC_iverilog
+Nand2Tetris is a course to learn the elements of computation systems, making a gradual evolution from logic gates to a high level language. 
 
-Icarus Verilog projects made for Computer System Elements (ESC) Class.
-
-I dont't put the tests here.
+The course is free and available at [https://www.nand2tetris.org/](https://www.nand2tetris.org/).
